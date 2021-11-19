@@ -19,11 +19,11 @@
 					<a href="index.html" class="logo"><strong>Hestia</strong></a>
 					<nav id="nav">
 						<a href = "index.html">Home</a>
-						<a href="ProjectDetails.html">Project Details</a>
-						<a href="Challenges.html">Challenges</a>
-						<a href="Budget.html">Budget</a>
-						<a href="ProjectSchedule.html">Project Schedule</a>
-						<a href="Prototype.html">Prototype</a>
+						<a href="About.html">About</a>
+						<a href="Challenges.html">Team Members</a>
+						<a href="Budget.html">Backend</a>
+						<a href="ProjectSchedule.html">Web Frontend</a>
+						<a href="Prototype.html">Mobile Frontend</a>
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
@@ -74,15 +74,15 @@
 								<img src="images/Logo.png" alt="Logo" width="150" height="150"/>
 							</div>
 							<header>
-								<h3>Project Details</h3>
+								<h3>About Hestia</h3>
 							</header>
 							<p>Hestia is a household management application developed as a capstone project at the University of Utah.
 								This application helps you manage many aspects of your household and includes budget, task, 
-								calendar, grocery list, and meal planning features..
+								calendar, grocery list, and meal planning features.
 								You can use this application on web and mobile for both Android and IOS.
 								</p>
 							<footer>
-								<a href="ProjectDetails.html" class="button">See Project Details</a>
+								<a href="ProjectDetails.html" class="button">Learn More about Hestia</a>
 							</footer>
 						</article>
 						<article>
@@ -90,13 +90,17 @@
 								<img src="images/Challenges.jpg" alt="Challenges" width="150" height="150"/>
 							</div>
 							<header>
-								<h3>Challenges</h3>
+								<h3>Team Members</h3>
 							</header>
-							<p>Overall this project will have many challenges related to both software and hardware. 
-								The biggest software challenge will be configuring the communication protocol between the app and sensors.
-							        Then, the biggest hardware challenge is going to be making the straw sensor small, portable, and figuring out a way to keep it charged.</p>
+							<p> A team of five developers has worked to make Hestia a reality. Shawn Michael Linnebach III and Bridger Peterson worked on the backend
+								of the application setting up the database Hestia uses and creating the API endpoints it relies on to operate.
+								Liam Zhou and Pierce Bringhurst worked on the frontend web application creating everything the user sees on
+								the web portal including handling everything to do with user login. Then, Thang Nguyen worked on mobile app developement creating 
+								everything the user sees on both the IOS and mobile applications. Through the hard work of everyone on the team we have been able
+								to create this application which we are all very proud of.
+							</p>
 							<footer>
-								<a href="Challenges.html" class="button">See Challenges</a>
+								<a href="Challenges.html" class="button">Learn More About the Team Members</a>
 							</footer>
 						</article>
 						<br>
@@ -105,14 +109,16 @@
 								<img src="images/Schedule.jpeg" alt="Schedule" width="150" height="150"/>
 							</div>
 							<header>
-								<h3>Project Schedule</h3>
+								<h3>Backend</h3>
 							</header>
-							<p>Overall, we have a fairly good idea of the schedule for our project.
-								We will finish the project website by March 26th and will have a working 
-								prototype by April 30th ready for demonstration. Furthermore, we have worked 
-								out team contingency plans in the event of us getting off schedule.</p>
+							<p> The Backend of the Hestia application was designed by Shawn Michael Linnebach III and Bridger Peterson. It constists of a Microsoft SQL database 
+								and a RESTful Web API both hosted by Microsoft Azure.
+								The database consists of over 25 tables that store all the information about a users household, budgets, schedule, to-dos grocery lists, 
+								and meals so that this information can be correctly retrieved every time a user logs in. Then, the Web API provides over 60 endpoints that 
+								the frontend can use to create, retreive, modify, and delete the data stored in the database.
+							</p>
 							<footer>
-								<a href="ProjectSchedule.html" class="button">See Full Schedule</a>
+								<a href="ProjectSchedule.html" class="button">Learn More About the Backend</a>
 							</footer>
 						</article>
 						<br>
@@ -121,12 +127,17 @@
 								<img src="images/Budget.jpg" alt="Budget" width="150" height="150"/>
 							</div>
 							<header>
-								<h3>Budget</h3>
+								<h3>Web Frontend</h3>
 							</header>
-							<p>We plan on spending approximately $130 on this project. 
-								This will cover the cost of all hardware components as well as our database costs.</p>
+							<p>The Frontend Web Portal of the Hestia application was designed by Liam Zhou and Pierce Bringhurst. It constists of an Identity Server for User 
+								login and a web application.
+								The Identity Server handles user authentication and password encryption to ensure that user data is secured. 
+								Then the web application is designed using angular and allows a user to login and scheduled events, create to-dos, 
+								create recipes, schedule meals, create a grocery list, and create budgets.
+								The Web portal can be found <a href="https://witty-sand-05f46471e.azurestaticapps.net/">Here</a>.
+							</p>
 							<footer>
-								<a href="Budget.html" class="button">See Full Breakdown</a>
+								<a href="Budget.html" class="button">Learn more about the web frontend</a>
 							</footer>
 						</article>
 						<article>
@@ -134,13 +145,16 @@
 								<img src="images/Prototype.jpg" alt="Prototype" width="150" height="150"/>
 							</div>
 							<header>
-								<h3>Prototype</h3>
+								<h3>Mobile Frontend</h3>
 							</header>
-							<p> By the end of this semester we plan on having a prototype completed for proof of concept of 
-								our project. Our prototype will consist of a heart rate monitor, a basic application template,
-								and some schematic work on the water intake sensor.</p>
+							<p> The Mobile Hestia application was designed by Thang Nguyen. It constists of a mobile application for both Android and IOS.
+								This was designed using NativeScript which allows the same code to be used for the application on both mobile platforms.
+								The mobile apps allow the user to login and scheduled events, create to-dos, and create budgets. The mobile downloads can be 
+								found in this <a href="https://drive.google.com/drive/folders/16nkzdj7utSEn3Mzk0Lo4kpsg99yvdIJK">Google Drive folder</a>. app-debug.apk
+								is the Android download and homelymobile.zip is the IOS download.
+							</p>
 							<footer>
-								<a href="Prototype.html" class="button">See Full Prototype Details</a>
+								<a href="Prototype.html" class="button">Learn more about the mobile frontend</a>
 							</footer>
 						</article>
 					</div>
