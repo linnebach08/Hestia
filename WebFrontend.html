@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Expected Challenges - HeartStrawng by HEALTHYBOIS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>HeartStrawng</strong> by HEALTHYBOIS</a>
+					<nav id="nav">
+						<a href = "index.html">Home</a>
+						<a href="ProjectDetails.html">Project Details</a>
+						<a href="Challenges.html">Challenges</a>
+						<a href="Budget.html">Budget</a>
+						<a href="ProjectSchedule.html">Project Schedule</a>
+						<a href="Prototype.html">Prototype</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<div class="image round">
+								<img src="images/Schedule.jpeg" alt="Schedule" width="150" height="150"/>
+							</div>
+						<h2>Hestia Web Frontend</h2>
+						<p> The web frontend for the Hestia application consists of our Identity Server that is used for
+							user authentication and the Web Portal which serves as the actual Hestia web application</p>
+					<h3>Identity Server</h3>
+					<p> The Identity Server is used for password encryption and user authentication at login as well as password resets. 
+						We chose to use the IdentityServer4 framework to establish an Identity Provider server because the protocol it implements, 
+						OpenID, is the latest technology and will provide enhanced security over just using something like ASP.NET. Furthermore, it 
+						provides a separation of concerns: user credentials and CRUD for user credentials are all found in one place, and if we were 
+						to create another application, the said application could also use this Identity Provider for authentication and authorization 
+						services. Lastly, although this has been the most time-consuming and high-tech route we could have taken for user authentication, 
+						establishing a Hestia Identity Server will give our app a professional appeal and provide our team with a valuable learning experience.
+						Overall, this server ensures that user information will be protected while using the Hestia application.
+					</p>
+					<h3>Web App</h3>
+					<p> The Web application of Hestia is a web portal built using Angular. This is a framework which both of our web app 
+						developers have experience with and therefore the decision was made to build the web application using Angular.
+						Once at the web app the user can login and once logged in they can view all their information. There is a separate
+						page for each feature of the application. There is a tasks page which serves as the user's to-do list. A Budget page
+						which allows the user to access, modify, create, and delete budgets. A calendar page which shows all of the user's 
+						calander events and allows the user to add, update, and delete events. Then, there is the meals page which allows a 
+						user to create recipes and schedule these recipes on a certain day making them a meal. Also in this page is the grocery 
+						list feature which allows a user to export the ingredients from the scheduled meals to their grocery list and allows the
+						user to manually add and delete grocery list items. Lastly, there is the setting page which allows a user to see the members
+						in their household and invite new users to the household. All these pages work by making requests to the API and updating the
+						data shown on the pages accordingly. Through this web application the user should be able to better manage their life which is the 
+						main goal of Hestia.
+					</p>
+					<h3>Web App Location</h3>
+					<p> The Web application can be found <a href="https://witty-sand-05f46471e.azurestaticapps.net/">here</a>.
+					</p>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
